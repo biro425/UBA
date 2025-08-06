@@ -1,0 +1,138 @@
+import { StyleSheet } from 'react-native';
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#fff',
+  },
+  header: {
+    backgroundColor: '#4CAF50',
+    paddingTop: 50,
+    paddingBottom: 20,
+    paddingHorizontal: 20,
+    borderBottomLeftRadius: 20,
+  },
+  headerTitle: {
+    color: '#fff',
+    fontSize: 24,
+    fontWeight: 'bold',
+    marginBottom: 4,
+  },
+  headerSubtitle: {
+    color: '#fff',
+    fontSize: 18,
+    fontWeight: 'bold',
+  },
+  ecoPointsBadge: {
+    position: 'absolute',
+    top: 50,
+    right: 20,
+    backgroundColor: '#388E3C',
+    paddingHorizontal: 12,
+    paddingVertical: 6,
+    borderRadius: 15,
+  },
+  ecoPointsText: {
+    color: '#fff',
+    fontSize: 12,
+    fontWeight: 'bold',
+  },
+  contentArea: {
+    flex: 1,
+    backgroundColor: '#fff',
+    paddingHorizontal: 20,
+  },
+  bottomSection: {
+    backgroundColor: '#fff',
+    paddingHorizontal: 20,
+    paddingVertical: 15,
+    borderTopWidth: 1,
+    borderTopColor: '#E0E0E0',
+  },
+  inputRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    backgroundColor: '#fff',
+    borderRadius: 25,
+    borderWidth: 1,
+    borderColor: '#E0E0E0',
+    paddingHorizontal: 15,
+    paddingVertical: 10,
+  },
+  analysisButton: {
+    width: 50,
+    height: 50,
+    backgroundColor: '#4CAF50',
+    borderRadius: 12,
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginRight: 10,
+  },
+  analysisIcon: {
+    width: 20,
+    height: 20,
+    backgroundColor: '#fff',
+    borderRadius: 4,
+  },
+  analysisText: {
+    color: '#4CAF50',
+    fontSize: 8,
+    fontWeight: 'bold',
+    textAlign: 'center',
+    marginTop: 2,
+  },
+  inputField: {
+    flex: 1,
+    fontSize: 16,
+    color: '#333',
+    paddingVertical: 8,
+  },
+  cameraButton: {
+    width: 30,
+    height: 30,
+    backgroundColor: '#4CAF50',
+    borderRadius: 6,
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginRight: 10,
+  },
+  sendButton: {
+    width: 30,
+    height: 30,
+    backgroundColor: '#4CAF50',
+    borderRadius: 6,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  chatContainer: {
+    flex: 1,
+    paddingHorizontal: 20,
+  },
+  messageBubble: {
+    borderRadius: 16,
+    padding: 12,
+    marginVertical: 4,
+    maxWidth: '80%',
+  },
+  userMessage: {
+    alignSelf: 'flex-end',
+    backgroundColor: '#E8F5E9',
+  },
+  botMessage: {
+    alignSelf: 'flex-start',
+    backgroundColor: '#F1F8E9',
+  },
+  messageText: {
+    fontSize: 16,
+    color: '#222',
+  },
+  loading: {
+    fontSize: 16,
+    color: '#666',
+    marginVertical: 16,
+    fontStyle: 'italic',
+    textAlign: 'center',
+  },
+});
+
+export default styles;
