@@ -39,7 +39,7 @@ export class GeminiService {
   }
 
   // Gemini API call (only for realistic feedback)
-  private async callGeminiAPI(prompt: string): Promise<Feedback> {
+  public async callGeminiAPI(prompt: string): Promise<Feedback> {
     const today = new Date();
     try {
       // Try different Gemini model endpoints

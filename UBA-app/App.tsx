@@ -43,7 +43,8 @@ export default function App() {
     setIsLoading(true);
     const geminiService = new GeminiService(apiKey);
     try {
-      const result = await geminiService.analyzePersonaChat({}, [...messages, userMessage]);
+      // 프롬프트 없이 유저 메시지만 전달
+      const result = await geminiService.callGeminiAPI(chatInput);
       setMessages(prev => [
         ...prev,
         {
