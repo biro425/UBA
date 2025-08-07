@@ -40,14 +40,14 @@ const styles = StyleSheet.create({
   contentArea: {
     flex: 1,
     backgroundColor: '#fff',
-    paddingHorizontal: 20,
+    paddingHorizontal: 8, // 기존 20에서 8로 줄임
   },
   bottomSection: {
-    backgroundColor: '#fff',
-    paddingHorizontal: 20,
-    paddingVertical: 15,
-    borderTopWidth: 1,
-    borderTopColor: '#E0E0E0',
+    // backgroundColor: '#fff', // 배경색 제거
+    // paddingHorizontal: 20, // 패딩 제거
+    // paddingVertical: 15, // 패딩 제거
+    // borderTopWidth: 1, // 테두리 제거
+    // borderTopColor: '#E0E0E0', // 테두리 제거
   },
   inputRow: {
     flexDirection: 'row',
@@ -106,7 +106,7 @@ const styles = StyleSheet.create({
   },
   chatContainer: {
     flex: 1,
-    paddingHorizontal: 20,
+    paddingHorizontal: 8, // 기존 20에서 8로 줄임
   },
   messageBubble: {
     borderRadius: 16,
