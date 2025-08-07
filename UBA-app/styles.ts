@@ -14,13 +14,13 @@ const styles = StyleSheet.create({
   },
   headerTitle: {
     color: '#fff',
-    fontSize: 24,
+    fontSize: 20, // 기존 24에서 20으로 줄임
     fontWeight: 'bold',
-    marginBottom: 4,
+    marginBottom: 30, // 간격을 더 넓힘
   },
   headerSubtitle: {
     color: '#fff',
-    fontSize: 18,
+    fontSize: 14, // 기존 18에서 14로 줄임
     fontWeight: 'bold',
   },
   ecoPointsBadge: {
@@ -56,8 +56,8 @@ const styles = StyleSheet.create({
     borderRadius: 25,
     borderWidth: 1,
     borderColor: '#E0E0E0',
-    paddingHorizontal: 15,
-    paddingVertical: 10,
+    paddingHorizontal: 15, // 원래대로 복구
+    paddingVertical: 10, // 원래대로 복구
   },
   analysisButton: {
     width: 50,
@@ -83,9 +83,9 @@ const styles = StyleSheet.create({
   },
   inputField: {
     flex: 1,
-    fontSize: 16,
+    fontSize: 16, 
     color: '#333',
-    paddingVertical: 8,
+    paddingVertical: 8, 
   },
   cameraButton: {
     width: 30,
@@ -106,7 +106,7 @@ const styles = StyleSheet.create({
   },
   chatContainer: {
     flex: 1,
-    paddingHorizontal: 8, // 기존 20에서 8로 줄임
+    paddingHorizontal: 8, 
   },
   messageBubble: {
     borderRadius: 16,

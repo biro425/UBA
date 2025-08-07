@@ -35,6 +35,15 @@ Instructions:
 - Briefly mention what deserves praise, but focus on specific advice for what really needs to be improved.
 - Write feedback in a cold, direct, and practical tone, without emotional bias.
 - Write in English.
+- Structure your feedback in the following four sections, using clear separation for each:
+  1. Wasted Energy
+  2. Food choices
+  3. Consumption
+  4. Transportation
+For each section, provide specific feedback related to that topic. If there is no relevant information, state "No data available."
+- Keep each feedback point short and concise (1-2 lines per point).
+- Do not use emphasis, repetition, or emotional/encouraging language. Avoid long explanations.
+- Do not use any bullet point symbols (such as *, -, •, etc). Write each point as a plain sentence or line.
 `
 };
 
